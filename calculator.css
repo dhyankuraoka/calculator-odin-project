@@ -1,0 +1,80 @@
+body{
+	display: flex;
+	justify-content: center;
+
+}
+
+#calculatorBody {
+	display: grid;
+	grid-template-rows: 15% auto;
+	justify-items: center;
+	height: 500px;
+	width: 400px;  
+	background-color: black;
+	border-radius: 2%;
+
+}			
+
+#screen {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+	background-color: yellow;
+	margin: 3%;
+}
+
+#buttonsContainer {
+	display: grid;
+	grid-auto-rows: 15% auto;
+	align-items: center;
+	width: 90%;
+}
+
+#clearDelete {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	column-gap: 3%;
+	height: 90%;
+	width: 97%;
+
+}
+
+#clearButton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: pink;
+	border-radius: 5%;
+}
+
+#deleteButton {
+	display: flex;
+	justify-content: center;	
+	align-items: center;
+	background-color: pink;
+	border-radius: 5%
+}
+
+
+#numbersOperators {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	column-gap: 4%;
+	row-gap: 4%;
+	height: 90%;
+	width: 89.5%;
+
+}
+
+.buttonRegular {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-color: blue;
+	border-radius: 5%;
+}
+
+
