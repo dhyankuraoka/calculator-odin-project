@@ -146,33 +146,3 @@ function addToStack(event) {
 	}
 }
 	
-
-/*
-else if(!justNumbers.includes(btnCode)) {
-		console.log('hi');
-		switch(btnCode) {
-			case 'addition':
-				if(operation == '') {
-					operation = btnCode;
-					memory = onScreen;
-					onScreen = '0';
-				}
-
-				else if(!operation=='' && !memory=='') {
-					onScreen = operator(operation,parseInt(memory),parseInt(onScreen));
-					atScreen.textContent = onScreen;
-					operation = btnCode;
-					memory= onScreen;
-					onScreen = '0';
-				}
-				
-				break;
-			case subtraction:
-
-			case multiplication:
-
-			case division:
-		}
-
-		
-	}*/
